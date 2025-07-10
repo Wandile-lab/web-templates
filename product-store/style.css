@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #4a4a4a;
+}
+
+header {
+  background-color: #ffe4e9;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #f8cdd4;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #d67d92;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #d67d92;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #b85773;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #fff0f5, #ffe4e9);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #cc6c87;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  background-color: #cc6c87;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #b85773;
+}
+
+.featured-products,
+.product-list {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.product {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product h4 {
+  margin: 0.5rem 0;
+  color: #d67d92;
+}
+
+.about,
+.contact {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.8rem;
+  border: 1px solid #f4a6b3;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fffafc;
+}
+
+button[type="submit"] {
+  background-color: #d67d92;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #b85773;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffe4e9;
+  color: #a16e7a;
+  margin-top: 3rem;
+}

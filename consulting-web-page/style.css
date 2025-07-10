@@ -1,0 +1,157 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1E1E1E;
+  color: #EDEDED;
+  line-height: 1.6;
+  margin: 0;
+}
+section {
+  background-image: radial-gradient(circle at top right, rgba(212, 175, 55, 0.1), transparent 70%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #121212;
+  border-bottom: 2px solid #D4AF37;
+}
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #EDEDED;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #D4AF37;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 60px;
+  background: linear-gradient(135deg, #121212 50%, #1E1E1E 50%);
+  flex-wrap: wrap;
+  color: #F1F1F1;
+}
+.hero-text {
+  max-width: 600px;
+}
+.hero h1 {
+  font-size: 56px;
+  color: #F7C948;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 20px;
+  color: #CCCCCC;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 14px 28px;
+  background-color: #D4AF37;
+  color: #121212;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero-img {
+  width: 400px;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+section {
+  padding: 100px 60px;
+  background-color: #1E1E1E;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #F7C948;
+}
+p, li {
+  font-size: 18px;
+  color: #CCCCCC;
+}
+.testimonial {
+  background-color: #2A2A2A;
+  padding: 60px;
+  border-left: 6px solid #D4AF37;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 14px;
+  color: #999;
+  background-color: #121212;
+  border-top: 1px solid #333;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+a {
+  color: #D4AF37;
+}
+a:hover {
+  opacity: 0.8;
+}
+/* Decorative accents */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, #D4AF37 0%, transparent 70%);
+  top: 20px;
+  right: 20px;
+  z-index: 0;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+/* Additional content spacing */
+.about-content, .services-content, .contact-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about-content p {
+  margin-bottom: 20px;
+}
+.services-content ul {
+  margin-bottom: 30px;
+}
+.contact-content p, .contact-content a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #F0EAD6;
+}
+.contact-content a {
+  font-weight: bold;
+}
+.contact-content a:hover {
+  color: #FFD700;
+  text-decoration: underline;
+}
+.testimonial p {
+  font-style: italic;
+  font-size: 20px;
+  color: #EEE;
+}
+.testimonial strong {
+  display: block;
+  margin-top: 10px;
+  color: #D4AF37;
+  font-weight: 600;
+}

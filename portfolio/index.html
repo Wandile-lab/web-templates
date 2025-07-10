@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Navbar -->
+  <header>
+    <header style="position: relative; background-color: #121212; overflow: hidden;">
+  <!-- Background image -->
+  <div style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    filter: blur(4px);
+    z-index: 0;
+  "></div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; z-index: 1;">
+    <h1 class="highlight" style="margin: 0; font-weight: bold; font-size: 1.5rem;">Noah M.</h1>
+    <!-- Add this inside the header's inner div, maybe just after the <h1> -->
+    <img src="https://images.unsplash.com/photo-1632179097449-c46a1fbd80a3?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile Picture" 
+     style="width:48px; height:48px; border-radius:50%; object-fit: cover; box-shadow: 0 0 6px #FFB703AA; margin-left: 15px;" />
+
+    <nav style="display: flex; gap: 20px;">
+   
+      <a href="#about" style="color: white; font-weight: bold; display: flex; align-items: center; gap: 6px; text-decoration: none;">
+        <!-- User icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFB703" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="8" r="4"/><path d="M6 20c0-3.3 5.3-5 6-5s6 1.7 6 5v1h-12v-1z"/></svg>
+        About
+      </a>
+      <a href="#skills" style="color: white; font-weight: bold; display: flex; align-items: center; gap: 6px; text-decoration: none;">
+        <!-- Code icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFB703" viewBox="0 0 24 24" width="18" height="18"><path d="M8.5 17.5l-5-5 5-5m7 10l5-5-5-5"/></svg>
+        Skills
+      </a>
+      <a href="#projects" style="color: white; font-weight: bold; display: flex; align-items: center; gap: 6px; text-decoration: none;">
+        <!-- Folder icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFB703" viewBox="0 0 24 24" width="18" height="18"><path d="M3 6h5l2 3h11v9h-18v-12z"/></svg>
+        Projects
+      </a>
+      <a href="#contact" style="color: white; font-weight: bold; display: flex; align-items: center; gap: 6px; text-decoration: none;">
+        <!-- Mail icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFB703" viewBox="0 0 24 24" width="18" height="18"><path d="M4 4h16v16h-16z" fill="none"/><path d="M22 6l-10 7-10-7v12h20z"/></svg>
+        Contact
+      </a>
+    </nav>
+  </div>
+</header>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2 class="highlight">Web Developer & Designer</h2>
+    <p>I build sleek and accessible websites using <span class="highlight">clean code</span> and modern tools. Let's bring your ideas to life.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="dark-section">
+    <h3 class="section-title highlight">About Me</h3>
+    <p class="text-light">I'm a passionate web developer with a knack for building fast, responsive, and user-focused websites. I enjoy solving problems and creating intuitive digital experiences.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+  <h3 class="section-title highlight">Skills</h3>
+  <div class="skills-list text-light">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- HTML5 icon -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 0h21l-1.91 21.54L12 24l-8.59-2.46L1.5 0zM19.78 7.6h-9.57l.22 2.5h7.7l-.59 6.6-5.79 1.57v.02l-5.72-1.56-.38-4.3h2.9l.18 2.06 3.02.84 2.93-.83.2-2.27H7.44L6.77 7.6h13.01z"/>
+      </svg>
+      HTML
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- CSS3 icon -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 0h21l-1.91 21.54L12 24l-8.59-2.46L1.5 0zM19.78 7.6h-9.57l.22 2.5h7.7l-.59 6.6-5.79 1.57v.02l-5.72-1.56-.38-4.3h2.9l.18 2.06 3.02.84 2.93-.83.2-2.27H7.44L6.77 7.6h13.01z"/>
+      </svg>
+      CSS
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- JavaScript icon -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"</svg>">
+        <path d="M12 0C5.371 0 0 5.372 0 12c0 6.627 5.371 12 12 12 6.628 0 12-5.373 12-12 0-6.628-5.372-12-12-12zm3.324 18.775c-.327.54-1.473 1.007-2.672 1.007-1.355 0-2.204-.703-2.204-1.688 0-1.15.831-1.56 2.223-2.236l.76-.37c1.1-.542 1.838-1.224 1.838-2.66 0-1.323-1.008-2.329-2.585-2.329-1.4 0-2.41.53-3.222 1.688l1.394.894c.25-.446.479-.778 1.01-.778.51 0 .834.325.834.778 0 .544-.325.758-1.1 1.17l-.749.378c-1.11.557-1.859 1.253-1.859 2.726 0 1.543 1.287 2.562 3.288 2.562 1.82 0 3.035-.838 3.58-1.927l-1.438-.835z"/>
+      </svg>
+      JavaScript
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- Responsive design icon (mobile + monitor) -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 4h10v16H7z" fill="none" stroke="#FFB703" stroke-width="2" rx="2" ry="2"/>
+        <rect x="9" y="6" width="6" height="12" fill="#FFB703"/>
+        <rect x="2" y="6" width="3" height="12" fill="#FFB703" rx="1" ry="1"/>
+        <rect x="19" y="6" width="3" height="12" fill="#FFB703" rx="1" ry="1"/>
+      </svg>
+      Responsive Design
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- GitHub icon -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 0C5.371 0 0 5.372 0 12c0 5.304 3.438 9.8 8.205 11.387.6.112.82-.26.82-.577 0-.285-.01-1.04-.016-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.334-1.756-1.334-1.756-1.09-.745.082-.73.082-.73 1.204.084 1.838 1.236 1.838 1.236 1.07 1.835 2.807 1.305 3.492.997.108-.776.418-1.305.76-1.605-2.665-.304-5.466-1.332-5.466-5.931 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3.003-.404c1.02.005 2.046.138 3.004.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.244 2.873.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.803 5.625-5.475 5.922.43.37.823 1.096.823 2.21 0 1.595-.014 2.882-.014 3.273 0 .32.215.694.825.576C20.565 21.796 24 17.303 24 12c0-6.628-5.372-12-12-12z"/>
+      </svg>
+      Git/GitHub
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- Figma icon simplified (circle + rectangle) -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="6" r="4"/>
+        <rect x="8" y="10" width="8" height="10" rx="4"/>
+      </svg>
+      Figma
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- React atom icon simplified -->
+      <svg width="20" height="20" fill="none" stroke="#FFB703" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="2.5" fill="#FFB703"/>
+        <ellipse cx="12" cy="12" rx="8" ry="3" stroke-linecap="round"/>
+        <ellipse cx="12" cy="12" rx="3" ry="8" stroke-linecap="round" transform="rotate(60 12 12)"/>
+        <ellipse cx="12" cy="12" rx="3" ry="8" stroke-linecap="round" transform="rotate(120 12 12)"/>
+      </svg>
+      React
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <!-- Debugging icon (bug) -->
+      <svg width="20" height="20" fill="#FFB703" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 4a4 4 0 0 1 4 4v3h2l3 3-3 3h-2v3a4 4 0 0 1-4 4 4 4 0 0 1-4-4v-3H6l-3-3 3-3h2V8a4 4 0 0 1 4-4z"/>
+      </svg>
+      Debugging
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="dark-section">
+    <h3 class="section-title highlight">Projects</h3>
+    <div class="projects-grid">
+      <div class="project-box">
+        <h4 class="highlight">Project One</h4>
+        <p class="text-light">A brief description of your project goes here.</p>
+      </div>
+      <div class="project-box">
+        <h4 class="highlight">Project Two</h4>
+        <p class="text-light">A brief description of your project goes here.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h3 class="section-title highlight">Contact</h3>
+    <p class="text-light">Let's work together — reach out via email or socials below.</p>
+    <a href="mailto:your@email.com">your@email.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Noah M. All rights reserved.
+  </footer>
+</body>
+</html>

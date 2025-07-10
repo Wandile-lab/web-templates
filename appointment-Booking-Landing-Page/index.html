@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Book with [Your Name]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="#booking">Book Now</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Welcome to Monty's salon</h1>
+    <p>Get the look you deserve — quick & easy booking!</p>
+    <a href="#booking" class="btn">Book Appointment</a>
+  </header>
+
+  <section id="services-preview" class="services-preview">
+  <h2>Popular Services</h2>
+  <div class="card-grid image-blocks">
+    <div class="card img-card">
+      <img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?q=80&w=737&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Haircut">
+      <div class="card-body">
+        <h3>Haircut</h3>
+        <p>From R120</p>
+      </div>
+    </div>
+    <div class="card img-card">
+      <img src="https://plus.unsplash.com/premium_photo-1664537435274-4c381efc6902?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blow-dry">
+      <div class="card-body">
+        <h3>Blow-dry</h3>
+        <p>From R150</p>
+      </div>
+    </div>
+    <div class="card img-card">
+      <img src="https://images.unsplash.com/photo-1587225438173-701d7edc94f9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hair Coloring">
+      <div class="card-body">
+        <h3>Coloring</h3>
+        <p>From R350</p>
+      </div>
+    </div>
+  </div>
+  <a href="services.html" class="btn small">See all services</a>
+</section>
+
+
+  <section id="booking" class="booking-section">
+    <h2>Book Now</h2>
+    <section class="booking-section">
+    <h2>Select a Date & Time</h2>
+    <input type="text" id="appointment-datetime" placeholder="Pick a date & time" />
+  </section>
+
+<!-- Link Flatpickr CSS and JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <p>OR<br>Click to chat with us on WhatsApp and secure your slot:</p>
+    <a href="https://wa.me/27811234567" class="btn whatsapp" target="_blank">
+      Book via WhatsApp
+    </a>
+  </section>
+
+  <script>
+  // Initialize Flatpickr with time selection
+  flatpickr("#appointment-datetime", {
+    enableTime: true,
+    minDate: "today",
+    dateFormat: "Y-m-d H:i",
+    defaultDate: new Date(),
+    time_24hr: true,
+    disableMobile: true
+  });
+  </script>
+
+
+  <footer>
+    <p>&copy; 2025 [Your Salon]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
