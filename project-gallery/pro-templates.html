@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Templates | Wandile's Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wandile's Premium Templates</h1>
+        <nav>
+            <a href="index.html">All Templates</a>
+            <a href="pro-templates.html" class="active">Pro Templates</a>
+            <a href="standard-templates.html">Standard Templates</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="pro-intro">
+    <h2>Premium Templates, Built to Impress</h2>
+    <p>Looking for a website that sets you apart? My Pro Templates are crafted for entrepreneurs, 
+        service providers, and small business owners who want a clean, confident online presence 
+        without the high agency fees. Whether you're booking clients, selling products, or promoting 
+        your services, these designs are mobile-ready, conversion-focused, and easy to personalize. 
+        Launch fast, look sharp, and grow your brand like a pro.</p>
+    </section>
+
+    <main class="gallery">
+        <!-- PRO TEMPLATES ONLY -->
+        <div class="template-card pro">
+            <div class="pro-badge">PRO</div>
+            <img src="images/appointmentImg-main.png" alt="Appointment Booking Template" class="clickable-img"/>
+            <h3>Appointment Booking</h3>
+            <p>Clean and professional layout ideal for salons, clinics, or freelancers.</p>
+            <div class="price">R4,500 <!-- <span class="original-price">R1,999</span> --></div>
+            <div class="buttons">
+                <a href="https://wandile-lab.github.io/appointment-booking-landing-page/" target="_blank">Live Demo</a>
+                <a href="appointment-booking-landingPage-screenshots.html">View Screenshots</a>
+            </div>
+        </div>
+
+        <div class="template-card pro">
+            <div class="pro-badge">PRO</div>
+            <img src="images/productStore-main.png" alt="Product Store Template" class="clickable-img"/>
+            <h3>Product Store</h3>
+            <p>Soft & feminine online store layout for selling physical goods.</p>
+            <div class="price">R5,500 <!--<span class="original-price">R2,299</span> --></div>
+            <div class="buttons">
+                <a href="https://wandile-lab.github.io/product-store/" target="_blank">Live Demo</a>
+                <a href="product-store-screenshots.html">View Screenshots</a>
+            </div>
+        </div>
+
+        <div class="template-card pro">
+            <div class="pro-badge">PRO</div>
+            <img src="images/coaching-main.png" alt="Coaching Template" class="clickable-img"/>
+            <h3>Coaching / Consultant Site</h3>
+            <p>Elegant layout for personal brands and service providers.</p>
+            <div class="price">R4,000 <!-- <span class="original-price">R2,099</span> --></div>
+            <div class="buttons">
+                <a href="https://wandile-lab.github.io/consulting-web-page/" target="_blank">Live Demo</a>
+                <a href="consulting-web-page-screenshots.html">View Screenshots</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Structure -->
+    <div id="img-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>© 2025 Wandile Designs. All rights reserved.</p>
+    </footer>
+
+    <script src="modal.js"></script>
+</body>
+</html>
